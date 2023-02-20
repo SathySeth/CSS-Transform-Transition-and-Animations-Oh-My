@@ -7,7 +7,7 @@ main {
   background-color: mediumaquamarine;
   height: 90vh;
   width: 100vh;
-  margin: auto;
+  margin: left;
   display: flex;
   align-items: center;
 }

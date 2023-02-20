@@ -28,16 +28,19 @@ nav {
 }
 
 @keyframes top {
-  from {}
-  to {}
+  from {transform: perspective(500px) translate3d(0px, 0px, 0px);}
+  to {transform: rotate(30deg) translate3d(15px, 30px, 0px);
+ }
 }
 
 @keyframes middle {
-  from {}
-  to {}
+0% {opacity: 100%;}
+50% {opacity: 50%;}
+100% {opacity: 0;}
 }
 
 @keyframes bottom {
-  from {}
-  to {}
+  from {transform: perspective(500px) translate3d(0px, 0px, 0px);}
+  to {transform: rotate(-30deg) translate3d(15px, -30px, 0px);
+}
 }
